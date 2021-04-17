@@ -22,6 +22,8 @@ cd
 
 yay -S nerd-fonts-ubuntu-mono --noconfirm
 
+sleep 2
+
 git clone https://github.com/antoniosarosi/dotfiles
 
 git clone https://github.com/antoniosarosi/pycritty
@@ -48,3 +50,5 @@ echo "udiskie -t &" >> .config/qtile/autostart.sh
 echo "nm-applet &" >> .config/qtile/autostart.sh
 
 python3 qtile-theme.py
+
+echo "GG bro"
