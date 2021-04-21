@@ -1,7 +1,8 @@
 # Installing
 
 ```bash
-sudo bash install.sh
+chmod +x install.sh
+./install.sh
 ```
 
 And Wait :)
