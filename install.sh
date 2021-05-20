@@ -34,8 +34,6 @@ touch .xprofile
 
 echo "picom &" >> .xprofile
 
-echo "setxkbmap es" >> .xprofile
-
 echo "feh --bg-fill Wallpapers/01.png" >> .xprofile
 
 cd
