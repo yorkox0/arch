@@ -1,14 +1,8 @@
 echo "Installing Requeriments"
 
-sleep 2
-
 sudo pacman -S papirus-icon-theme xorg ruby rubygems nodejs feh go picom npm firefox gcc qtile pcmanfm rofi neovim nano lightdm lightdm-webkit2-greeter alacritty base-devel make cmake fakeroot neofetch git python3 python2 python-pip alsa-utils binutils cbatticon volumeicon udiskie network-manager-applet lxappearance --noconfirm
 
 echo "Downloading Yay"
-
-sleep 2
-
-cd /opt/
 
 git clone https://aur.archlinux.org/yay.git
 
@@ -23,8 +17,6 @@ cd
 yay -S nerd-fonts-ubuntu-mono --noconfirm
 
 echo "Downloading Qtile Themes"
-
-sleep 2
 
 git clone https://github.com/antoniosarosi/dotfiles
 
@@ -77,14 +69,8 @@ cd && cp -r dotfiles/.config/rofi ~/.config
 
 yay -S lightdm-webkit-theme-aether --noconfirm
 
-
 echo "neofetch" >> .bashrc
-
 
 echo "Starting Arch :)"
 
-sleep 2
-
 sudo systemctl enable --now lightdm
-
-echo "GG bro"
